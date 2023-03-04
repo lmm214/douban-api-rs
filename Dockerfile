@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.9
 ARG TARGETARCH
 ARG TARGETVARIANT
 RUN apk --no-cache add ca-certificates tini && \
